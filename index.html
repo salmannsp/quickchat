@@ -511,8 +511,8 @@
             scrollToBottom();
 
             setTimeout(() => {
-                const botMsgHTML = `<https://raw.githubusercontent.com/salmannsp/UploadImg/d2c636a6f30b1c40c7017e4769ac28a09d6aac3c/assets/gemini.svg" alt="Image" class="avatar">
-                                    <p class="message-text">Just a sec...</p>`;
+                const botMsgHTML = `<img src="https://raw.githubusercontent.com/salmannsp/UploadImg/d2c636a6f30b1c40c7017e4769ac28a09d6aac3c/assets/gemini.svg" alt="Image" class="avatar">
+                    <p class="message-text">Just a sec...</p>`;
                 const botMsgDiv = createMsgElement(botMsgHTML, "bot-message", "loading");
                 chatsContainer.appendChild(botMsgDiv);
                 scrollToBottom();
